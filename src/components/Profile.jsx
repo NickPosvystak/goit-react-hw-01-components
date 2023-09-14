@@ -1,6 +1,6 @@
-
-const Profile = ({userName,tag,location, stats, avatar,}) => {
-    return (<div className="profile">
+const Profile = ({ userName, tag, location, stats, avatar }) => {
+  return (
+    <div className="profile">
       <div className="description">
         <img src={avatar} alt="User avatar" className="avatar" width="250px" />
         <p className="name">{userName}</p>
@@ -22,6 +22,7 @@ const Profile = ({userName,tag,location, stats, avatar,}) => {
           <span className="quantity">{stats.likes}</span>
         </li>
       </ul>
-    </div>)
-}
+    </div>
+  );
+};
 export default Profile;
