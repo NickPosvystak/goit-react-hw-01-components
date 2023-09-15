@@ -1,0 +1,26 @@
+.profile {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  background-color: antiquewhite;
+}
+.label {
+  display: flex;
+}
+.thrumImg {
+  margin-top: 10px;
+}
