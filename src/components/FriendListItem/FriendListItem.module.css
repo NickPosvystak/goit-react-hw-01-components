@@ -1,5 +1,6 @@
 .item {
   display: flex;
+  align-items: center;
   padding: 10px;
   border-radius: 15px;
   margin-bottom: 15px;
@@ -9,4 +10,24 @@
 }
 .name {
   padding-left: 20px;
+}
+.status {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+.avatar {
+  border: 5px outset;
+  border-radius: 5px;
+  width: 50px;
 }
